@@ -5,9 +5,84 @@
     <title>Change Calculator</title>
   </head>
   <body>
+    <link rel='stylesheet' href='style.css'>
     <!-- Write your markup here -->
+    
+  <main>
+    <br>
+    <h1>Change Calculator</h1>
+    <h3>change your change so easy</h3>
+    <br>
+  </main>
+
+  <article class='mainPart'>
+    <section class='subPart'>
+      <div class='str'>Money you paid</div>
+      <input id = 'amount-due' type = 'text' ><br>
+    </section>
+    <section class='subPart'>
+      <div class='str'>Money you got</div>
+      <input id = 'amount-received' type = 'text'><br>
+    </section>
+    <section class='subPart'>
+      <div class='str'>Click below</div>
+      <input id = 'calculate-change' type = 'button' value = 'Calculate button' onclick='calculation()'>
+    </section>
+  </article>
+
+  <article class='mainPart'>
+    <section class='subPart'>
+      <div class='str'>Total dollars</div> 
+      <p id = 'dollars-output'>0</p>
+    </section>
+    <section class='subPart'>
+      <div class='str'>20 dollars</div> 
+      <p id = 'twentyDollars-output'>0</p>
+    </section>
+    <section class= 'subPart'>
+      <div class='str'>10 dollars</div>
+      <p id = 'tenDollars-output'>0</p>
+    </section>
+    <section class='subPart'>
+      <div class='str'>5 dollars</div>
+      <p id = 'fiveDollars-output'>0</p>
+    </section>
+    <section class='subPart'>
+      <div class='str'>2 dollars</div>
+      <p id = 'twoDollars-output'>0</p>
+    </section>
+    <section class='subPart'>
+      <div class='str'>1 dollar</div>
+      <p id = 'oneDollars-output'>0</p>
+    </section>
+  </article>
+
+  <article class='mainPart'>
+    <section class='subPart'>
+      <div class='str'>Total cents</div>
+      <p id = 'cents'>0</p>
+    </section>
+    <section class='subPart'>
+     <div class='str'> Quaters</div>
+      <p id = 'quarters-output'>0</p>
+    </section>
+    <section class='subPart'>
+      <div class='str'>Dimes</div>
+      <p id = 'dimes-output'>0</p>
+    </section>
+    <section class='subPart'>
+      <div class='str'>Nickels</div>
+      <p id = 'nickels-output'>0</p>
+    </section>
+    <section class='subPart'>
+      <div class='str'>Pennies</div>
+      <p id = 'pennies-output'>0</p>
+    </section>
+  </article>
+
+
 
     <!-- Don't forget to add your <script> tag here -->
-
+    <script type="text/javascript" src="main.js"></script>
   </body>
 </html>

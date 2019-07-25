@@ -1,0 +1,32 @@
+* {
+  color: darkslategrey;
+  text-align: center;
+}
+
+main {
+    text-align: center;
+    font-style: italic;
+    line-height: 50%;
+}
+
+
+
+.mainPart {
+    border: 1px solid lightgrey;
+    padding: 10px;
+    background-color: #f5f5f5;
+    margin: 10px 80px 5px 80px;
+  }
+
+.subPart {
+  font-size: 20px;
+  padding: 5px;
+  line-height: 120%;
+  margin: 5px 30px 0px 30px;
+  display: inline-block; 
+}
+
+.str {
+  font-weight: bold;
+  font-size: 20px
+};
